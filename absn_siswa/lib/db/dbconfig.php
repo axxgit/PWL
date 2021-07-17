@@ -1,0 +1,15 @@
+<?php 
+    /**
+     * 
+     *  Absensi Siswa
+     *  
+     *  
+     *  
+     */
+    $dbhost = "localhost";
+    $dbuser = "root";
+    $dbpwd = "";
+    $dbname = "absensi_siswa";
+
+    $conn = new mysqli($dbhost, $dbuser, $dbpwd, $dbname);
+ ?>
